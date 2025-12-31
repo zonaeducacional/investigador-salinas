@@ -11,7 +11,7 @@ st.set_page_config(page_title="Investigador Histórico - Salinas", layout="wide"
 st.title("🔍 Investigador Digital: Fontes Históricas")
 st.markdown("""
 Esta ferramenta cruza dados do **Internet Archive** e **Google Books**.
-*Desenvolvido pelo Prof. Sérgio para o projeto História de Salinas da Margarida.*
+*Desenvolvido pelo Prof. Sérgio Araújo para o projeto História de Salinas da Margarida.*
 """)
 
 # --- BARRA LATERAL ---
@@ -153,4 +153,4 @@ elif botao_buscar and not termo:
     st.warning("Por favor, digite um termo para pesquisar.")
 
 st.markdown("---")
-st.caption("Ferramenta Historiográfica - Prof. Sérgio")
+st.caption("Ferramenta Historiográfica - Prof. Sérgio Araújo 2026")
